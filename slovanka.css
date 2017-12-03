@@ -1,0 +1,158 @@
+/*nav a {
+    background-color: #ffca14;
+}
+
+nav {
+    background-color: #000000;
+}
+
+
+<style>
+a:active    {color: red}
+</style>
+*/
+
+body {
+
+    text-align: center;
+}
+
+body {background-image: url("https://thumbnails-4.fotky-foto.cz/400/05/22/16/FotkyFoto_drevo-textury-pozadi_52216219.jpg")}
+
+.container {
+    padding: 0 1rem;
+    max-width: 100%;
+    /*background-color: #96ff36;*/
+    background-image:  url("http://cz.kronospan-express.com/public/thumbs/600x600/decors/kronodesign/standard/8431_600x600_crop_478b24840a.jpg") ;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table
+{
+    width: 100%;
+    table-layout: fixed;
+}
+
+table td {
+    text-align: left;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+nav a {
+    font-weight: 700;
+    padding: 2rem 3rem;
+    color: black;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Arial, Verdana, sans-serif;
+}
+/*nav {
+    background-color: black;
+}*/
+
+nav a:hover,
+nav a:active,
+nav a:focus {
+    background-color: #c66603;
+}
+
+
+/*// Small screens*/
+@media only screen {
+}
+
+/* Define mobile styles */
+
+/*// Medium screens*/
+@media only screen and (min-width: 40.063em) {
+    nav a {
+        display: inline-block;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+}
+
+/* min-width 641px, medium screens */
+
+/*// Large screens*/
+@media only screen and (min-width: 64.063em) {
+    .container {
+        width: 64em;
+        margin: 0 auto;
+    }
+
+    header .background {
+        background: url("http://kit.pef.czu.cz/images/pef_foto.jpg") center center;
+    }
+
+    header .background > div {
+        min-height: 400px;
+    }
+
+    .header-text {
+        padding: 2em;
+        background-color: RGBA(36, 94, 117, 0.8);
+        border-radius: 1rem;
+        text-align: center;
+    }
+
+    .header-text h1,
+    .header-text p {
+        margin: 0;
+        color: white;
+        padding: 0;
+    }
+
+    .background > div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .flex-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .flex-container figure {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    nav {
+        position: sticky;
+        position: -webkit-sticky;
+        top: 0;
+        z-index: 1;
+    }
+}
+
+/* min-width 1025px, large screens */
+
+/*// XLarge screens*/
+@media only screen and (min-width: 90.063em) {
+    nav a {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+}
+
+/* min-width 1441px, xlarge screens */
+
+/*// XXLarge screens*/
+@media only screen and (min-width: 120.063em) {
+}
+
+/* min-width 1921px, xxlarge screens */
+
+/*flexbox
+http://flexboxgrid.com/
+*/
